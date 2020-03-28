@@ -1,4 +1,4 @@
-#Nmap aracındaki sonucların xml olarak komut satırı aracılığı ile bastırılması
+#Nmap aracındaki sonuclarin xml olarak bastirilmasi
 #(Python + Nmap + cmd = xml)
 
 import os
