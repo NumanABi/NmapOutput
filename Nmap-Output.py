@@ -1,8 +1,11 @@
+#Nmap aracındaki sonucların xml olarak komut satırı aracılığı ile bastırılması
+#(Python + Nmap + cmd = xml)
+
 import os
 os.system("nmap metingerdan.com -oX mett1.xml")
 os.system("nmap planetekno.com -oX mett2.xml")
 os.system("nmap instagram.com -oX mett3.xml")
-
-#Nmap output
-#cmd + nmap : Target Website
-#Belirlenen siteler üzerinde nmap ile tarama
+os.system("nmap facebook.com -oX mett4.xml")
+os.system("nmap linkedin.com -oX mett5.xml")
+os.system("nmap bankofamerica.com -oX mett6.xml")
+#Birden çok test edilecek site belirtilebilir
